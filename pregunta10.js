@@ -1,4 +1,4 @@
-const URL_METEO = "https://api.open-meteo.com/v1/forecast?latitude=59.9127&longitude=10.7461&hourly=wind_speed_10m&models=meteofrance_seamless&forecast_days=3";
+const URL_METEO = "https://api.open-meteo.com/v1/forecast?latitude=59.9127&longitude=10.7461&hourly=wind_speed_10m&models=meteofrance_arpege_europe&forecast_days=3";
 
 async function humiditySidney(url){
     const answer = await fetch(url);

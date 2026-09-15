@@ -7,4 +7,4 @@ async function precipitationElCairo(url) {
 }
 
 const data = await precipitationElCairo(URL_METEO);
-console.log("Pregunta 3: Probabilidad de precipitación en el Cairo", data.hourly.precipitation_probability[24 + 9], data.hourly_units.precipitation_probability);
+console.log("Probabilidad de precipitación en el Cairo", data.hourly.precipitation_probability[24 + 9], data.hourly_units.precipitation_probability);

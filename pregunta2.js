@@ -8,4 +8,4 @@ async function weatherNewYork(url){
 }
 
 const data = await weatherNewYork(URL_METEO);
-console.log("Pregunta 2: Temperatura de pasado mañana en Nueva York: ", data.hourly.temperature_80m[48 + 14], data.hourly_units.temperature_80m);
+console.log("Temperatura de pasado mañana en Nueva York: ", data.hourly.temperature_80m[48 + 14], data.hourly_units.temperature_80m);

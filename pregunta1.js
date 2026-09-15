@@ -9,4 +9,4 @@ async function windTokio(url)
 }
 
 const data = await windTokio(URL_METEO);
-console.log("Pregunta 1: Velocidad viento de mañana en Tokio: ", data.hourly.wind_speed_120m[24 + 19]);
+console.log("Velocidad viento de mañana en Tokio: ", data.hourly.wind_speed_120m[24 + 19]);
